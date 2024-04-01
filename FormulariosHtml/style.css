@@ -1,0 +1,40 @@
+.saquebo{
+    margin-top: -11px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria;
+}
+
+hr{
+    height: 20px;
+    background-color: black;
+}
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.saqueba{
+    margin: 0 auto;
+    text-align: center;
+    border: 40px solid;
+    border-radius: 50%;
+    border-color: rgb(221, 221, 91);
+    background-color: rgb(202, 141, 202);
+    height: 700px;
+    width: 700px;
+}
+
+form{
+    margin-top: 200px;
+}
+
+label{
+    text-align: center;
+    font-family: Cambria;
+    font-size: 30px;
+}

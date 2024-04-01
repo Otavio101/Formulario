@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="saquebo">
+        <hr>
+        <h1>Formulario</h1>
+        <hr>
+    </div>
+
+    <div class="sauebajunior">
+        <div class="saqueba">
+            <form action="/naotem" method="post"> <!-- Este é o elemento <form> que define o início do formulário.
+                O atributo action especifica para onde os dados do formulário serão enviados quando o formulário for submetido.
+                Method especifica o método HTTP a ser usado para enviar os dados.
+                Quando o metodo é o "post" os dados do formulário são enviados ao servidor HTTP no corpo da solicitação HTTP.-->
+                <label for="idName">Name:</label>
+                <input type="text" name="idName" id="idName"> <!-- <input> é um elemento HTML usado para criar vários tipos de campos de entrada em um formulário web.
+                     type="text": Um campo de texto simples para entrada de texto. -->
+                <br>
+                <label for="idEmail">E-mail:</label>
+                <input type="email" name="idEmail" id="idEmail"> <!-- type="email": Um campo de entrada que aceita apenas endereços de e-mail válidos. -->
+                <br>
+                <label for="idSenha">Senha:</label>
+                <input type="password" name="idSenha" id="idSenha"> <!-- type="password": Um campo de entrada para senhas, onde os caracteres digitados são mascarados. -->
+                <br>
+                <label for="idNascimento">Data de Nascimento:</label>
+                <input type="date" name="idNascimento" id="idNascimento"> <!-- type="date": Um campo de entrada para inserir uma data. -->
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
